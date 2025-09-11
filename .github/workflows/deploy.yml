@@ -2,7 +2,10 @@ name: Deploy Vite site to GitHub Pages
 
 on:
   push:
-    branches: [main]   # запускается при пуше в main
+    branches: [main]
+
+permissions:
+  contents: write    # 👈 добавляем это!
 
 jobs:
   build-and-deploy:
