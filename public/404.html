@@ -7,6 +7,14 @@
     <script type="text/javascript">
       // Если meta refresh не сработает
       window.location.href = "/atyrau_bruschatka/";
+      // GitHub Pages SPA redirect fix
+  (function() {
+    var redirect = window.location.pathname.replace("/atyrau_bruschatka", "");
+    if (redirect && redirect !== "/") {
+      sessionStorage.setItem("redirect", window.location.pathname);
+      window.location.replace("/atyrau_bruschatka/");
+    }
+  })();
     </script>
   </head>
   <body>
