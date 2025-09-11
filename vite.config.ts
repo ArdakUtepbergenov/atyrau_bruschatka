@@ -15,4 +15,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: "/atyrau_bruschatka/", // 👈 обязательно замени на имя своего репозитория
 }));
