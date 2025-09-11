@@ -57,6 +57,19 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Custom colors for paving stones theme
+        "stone-gray": "hsl(var(--stone-gray))",
+        "warm-beige": "hsl(var(--warm-beige))",
+        "forest-green": "hsl(var(--forest-green))",
+        "light-stone": "hsl(var(--light-stone))",
+      },
+      backgroundImage: {
+        "gradient-hero": "var(--gradient-hero)",
+        "gradient-card": "var(--gradient-card)",
+      },
+      boxShadow: {
+        card: "var(--shadow-card)",
+        hero: "var(--shadow-hero)",
       },
       borderRadius: {
         lg: "var(--radius)",
