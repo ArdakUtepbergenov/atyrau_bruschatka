@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Redirecting...</title>
   <script>
-    // Сохраняем путь, на который зашёл пользователь (например /about)
     (function() {
-      var redirect = window.location.pathname;
-      if (redirect && redirect.startsWith("/atyrau_bruschatka")) {
+      // сохраняем полный путь, включая поддиректорию
+      var redirect = window.location.pathname + window.location.search;
+      if (redirect && redirect !== "/atyrau_bruschatka/") {
         sessionStorage.setItem("redirect", redirect);
-        // отправляем на главную
         window.location.replace("/atyrau_bruschatka/");
       }
     })();
@@ -17,6 +16,6 @@
 </head>
 <body>
   <h1>Redirecting...</h1>
-  <p>If you are not redirected, <a href="/atyrau_bruschatka/">click here</a>.</p>
+  <p>If nothing happens, <a href="/atyrau_bruschatka/">click here</a>.</p>
 </body>
 </html>
