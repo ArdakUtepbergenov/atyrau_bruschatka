@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 permissions:
-  contents: write    # 👈 добавляем это!
+  contents: write
 
 jobs:
   build-and-deploy:
@@ -31,3 +31,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          force_orphan: true   # 👈 гарантированно пересоздаёт ветку gh-pages
