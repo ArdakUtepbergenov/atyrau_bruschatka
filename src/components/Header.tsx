@@ -20,7 +20,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <img src={logo} alt="Атырау Брусчатка логотип" className="w-8 h-8 rounded-lg" />
+            <img src={logo} alt="Атырау Брусчатка логотип" className="h-8 w-auto rounded-lg object-contain" />
             <span className="font-bold text-xl text-foreground">Атырау Брусчатка</span>
           </div>
 
