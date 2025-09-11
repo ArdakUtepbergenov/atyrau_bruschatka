@@ -12,7 +12,7 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://atyrau-paving.kz/" />
-    <meta property="og:title" content="Атырау Брусчатка - Укладка брусчатка под ключ в Атырау" />
+    <meta property="og:title" content="Атырау Брусчатка - Укладка брусчатки под ключ в Атырау" />
     <meta property="og:description" content="Профессиональная укладка брусчатки в Атырау. 200+ объектов, гарантия 3 года, бесплатная консультация. Каталог 20+ видов от 2200₸/м²" />
     <meta property="og:image" content="https://atyrau-paving.kz/og-image.jpg" />
     <meta property="og:locale" content="ru_KZ" />
@@ -44,14 +44,17 @@
       "areaServed": "Атырау, Атырауская область",
       "serviceType": "Укладка брусчатки"
     }
-  (function() {
-    var redirect = sessionStorage.getItem("redirect");
-    if (redirect) {
-      sessionStorage.removeItem("redirect");
-      window.history.replaceState(null, "", redirect);
-    }
-  })();
+    </script>
 
+    <!-- ВОТ СЮДА ПЕРЕНОСИМ СКРИПТ -->
+    <script>
+      (function() {
+        var redirect = sessionStorage.getItem("redirect");
+        if (redirect) {
+          sessionStorage.removeItem("redirect");
+          window.history.replaceState(null, "", redirect);
+        }
+      })();
     </script>
   </head>
 
