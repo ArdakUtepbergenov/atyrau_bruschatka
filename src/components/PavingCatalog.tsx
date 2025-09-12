@@ -33,7 +33,7 @@ import img5 from "@/assets/5.jpeg";
 import img6 from "@/assets/6.jpg";
 import img7 from "@/assets/7.jpg";
 import img8 from "@/assets/8.jpg";
-import img9 from "@/assets/9.jpg";
+import img9 from "@/assets/9.jpeg";
 import img10 from "@/assets/10.jpg";
 import img11 from "@/assets/11.jpg";
 import img12 from "@/assets/12.jpg";
