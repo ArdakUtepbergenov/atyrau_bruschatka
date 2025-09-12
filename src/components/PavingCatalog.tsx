@@ -6,24 +6,24 @@ import { ArrowUpDown, Grid3X3, ShoppingCart } from "lucide-react";
 
 // Импорты картинок
 import img1 from "@/assets/1.jpeg";
-import img2 from "@/assets/2.jpg";
-import img3 from "@/assets/3.jpg";
-import img4 from "@/assets/4.jpg";
+import img2 from "@/assets/2.JPG";
+import img3 from "@/assets/3.JPG";
+import img4 from "@/assets/4.JPG";
 import img5 from "@/assets/5.jpeg";
-import img6 from "@/assets/6.jpg";
-import img7 from "@/assets/7.jpg";
-import img8 from "@/assets/8.jpg";
-import img9 from "@/assets/9.jpg";
-import img10 from "@/assets/10.jpg";
-import img11 from "@/assets/11.jpg";
-import img12 from "@/assets/12.jpg";
-import img13 from "@/assets/13.jpg";
-import img14 from "@/assets/14.jpg";
-import img15 from "@/assets/15.jpg";
-import img16 from "@/assets/16.jpg";
+import img6 from "@/assets/6.JPG";
+import img7 from "@/assets/7.JPG";
+import img8 from "@/assets/8.JPG";
+import img9 from "@/assets/9.JPG";
+import img10 from "@/assets/10.JPG";
+import img11 from "@/assets/11.JPG";
+import img12 from "@/assets/12.JPG";
+import img13 from "@/assets/13.JPG";
+import img14 from "@/assets/14.JPG";
+import img15 from "@/assets/15.JPG";
+import img16 from "@/assets/16.JPG";
 import img17 from "@/assets/17.jpeg";
-import img18 from "@/assets/18.jpg";
-import img19 from "@/assets/19.jpg";
+import img18 from "@/assets/18.JPG";
+import img19 from "@/assets/19.JPG";
 
 const PavingCatalog = () => {
   const [sortBy, setSortBy] = useState("name");
