@@ -4,31 +4,52 @@ import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { ArrowUpDown, Grid3X3, ShoppingCart } from "lucide-react";
 
+// Импорты картинок
+import img1 from "@/assets/paving/1.jpeg";
+import img2 from "@/assets/paving/2.jpeg";
+import img3 from "@/assets/paving/3.jpeg";
+import img4 from "@/assets/paving/4.jpeg";
+import img5 from "@/assets/paving/5.jpeg";
+import img6 from "@/assets/paving/6.jpeg";
+import img7 from "@/assets/paving/7.jpeg";
+import img8 from "@/assets/paving/8.jpeg";
+import img9 from "@/assets/paving/9.jpeg";
+import img10 from "@/assets/paving/10.jpeg";
+import img11 from "@/assets/paving/11.jpeg";
+import img12 from "@/assets/paving/12.jpeg";
+import img13 from "@/assets/paving/13.jpeg";
+import img14 from "@/assets/paving/14.jpeg";
+import img15 from "@/assets/paving/15.jpeg";
+import img16 from "@/assets/paving/16.jpeg";
+import img17 from "@/assets/paving/17.jpeg";
+import img18 from "@/assets/paving/18.jpeg";
+import img19 from "@/assets/paving/19.jpeg";
+
 const PavingCatalog = () => {
   const [sortBy, setSortBy] = useState("name");
   const [filterBy, setFilterBy] = useState("all");
 
   // Каталог брусчатки - 19 моделей
   const pavingItems = [
-    { id: 1, name: "Брусчатка 1", price: 4500, category: "classic", size: "200x100x60", image: "/atyrau_bruschatka/assets/1.jpeg" },
-    { id: 2, name: "Брусчатка 2", price: 4600, category: "classic", size: "200x100x60", image: "/atyrau_bruschatka/assets/2.jpeg" },
-    { id: 3, name: "Брусчатка 3", price: 4700, category: "wave", size: "240x120x60", image: "/atyrau_bruschatka/assets/3.jpeg" },
-    { id: 4, name: "Брусчатка 4", price: 4800, category: "clinker", size: "200x100x50", image: "/atyrau_bruschatka/assets/4.jpeg" },
-    { id: 5, name: "Брусчатка 5", price: 4900, category: "granite", size: "100x100x80", image: "/atyrau_bruschatka/assets/5.jpeg" },
-    { id: 6, name: "Брусчатка 6", price: 5000, category: "hexagonal", size: "170x148x60", image: "/atyrau_bruschatka/assets/6.jpeg" },
-    { id: 7, name: "Брусчатка 7", price: 5100, category: "classic", size: "200x100x40", image: "/atyrau_bruschatka/assets/7.jpeg" },
-    { id: 8, name: "Брусчатка 8", price: 5200, category: "hexagonal", size: "различные", image: "/atyrau_bruschatka/assets/8.jpeg" },
-    { id: 9, name: "Брусчатка 9", price: 5300, category: "wave", size: "300x300x30", image: "/atyrau_bruschatka/assets/9.jpeg" },
-    { id: 10, name: "Брусчатка 10", price: 5400, category: "antique", size: "160x160x60", image: "/atyrau_bruschatka/assets/10.jpeg" },
-    { id: 11, name: "Брусчатка 11", price: 4500, category: "parquet", size: "250x62x60", image: "/atyrau_bruschatka/assets/11.jpeg" },
-    { id: 12, name: "Брусчатка 12", price: 4600, category: "concrete", size: "350x350x50", image: "/atyrau_bruschatka/assets/12.jpeg" },
-    { id: 13, name: "Брусчатка 13", price: 4700, category: "geometric", size: "170x140x60", image: "/atyrau_bruschatka/assets/13.jpeg" },
-    { id: 14, name: "Брусчатка 14", price: 4800, category: "textured", size: "300x300x60", image: "/atyrau_bruschatka/assets/14.jpeg" },
-    { id: 15, name: "Брусчатка 15", price: 4900, category: "clinker", size: "210x100x52", image: "/atyrau_bruschatka/assets/15.jpeg" },
-    { id: 16, name: "Брусчатка 16", price: 5000, category: "granite", size: "100x100x100", image: "/atyrau_bruschatka/assets/16.jpeg" },
-    { id: 17, name: "Брусчатка 17", price: 5100, category: "geometric", size: "различные", image: "/atyrau_bruschatka/assets/17.jpeg" },
-    { id: 18, name: "Брусчатка 18", price: 5200, category: "classic", size: "160x240x60", image: "/atyrau_bruschatka/assets/18.jpeg" },
-    { id: 19, name: "Брусчатка 19", price: 5300, category: "wave", size: "340x340x45", image: "/atyrau_bruschatka/assets/19.jpeg" }
+    { id: 1, name: "Брусчатка 1", price: 4500, category: "classic", size: "200x100x60", image: img1 },
+    { id: 2, name: "Брусчатка 2", price: 4600, category: "classic", size: "200x100x60", image: img2 },
+    { id: 3, name: "Брусчатка 3", price: 4700, category: "wave", size: "240x120x60", image: img3 },
+    { id: 4, name: "Брусчатка 4", price: 4800, category: "clinker", size: "200x100x50", image: img4 },
+    { id: 5, name: "Брусчатка 5", price: 4900, category: "granite", size: "100x100x80", image: img5 },
+    { id: 6, name: "Брусчатка 6", price: 5000, category: "hexagonal", size: "170x148x60", image: img6 },
+    { id: 7, name: "Брусчатка 7", price: 5100, category: "classic", size: "200x100x40", image: img7 },
+    { id: 8, name: "Брусчатка 8", price: 5200, category: "hexagonal", size: "различные", image: img8 },
+    { id: 9, name: "Брусчатка 9", price: 5300, category: "wave", size: "300x300x30", image: img9 },
+    { id: 10, name: "Брусчатка 10", price: 5400, category: "antique", size: "160x160x60", image: img10 },
+    { id: 11, name: "Брусчатка 11", price: 4500, category: "parquet", size: "250x62x60", image: img11 },
+    { id: 12, name: "Брусчатка 12", price: 4600, category: "concrete", size: "350x350x50", image: img12 },
+    { id: 13, name: "Брусчатка 13", price: 4700, category: "geometric", size: "170x140x60", image: img13 },
+    { id: 14, name: "Брусчатка 14", price: 4800, category: "textured", size: "300x300x60", image: img14 },
+    { id: 15, name: "Брусчатка 15", price: 4900, category: "clinker", size: "210x100x52", image: img15 },
+    { id: 16, name: "Брусчатка 16", price: 5000, category: "granite", size: "100x100x100", image: img16 },
+    { id: 17, name: "Брусчатка 17", price: 5100, category: "geometric", size: "различные", image: img17 },
+    { id: 18, name: "Брусчатка 18", price: 5200, category: "classic", size: "160x240x60", image: img18 },
+    { id: 19, name: "Брусчатка 19", price: 5300, category: "wave", size: "340x340x45", image: img19 }
   ];
 
   const categories = [
