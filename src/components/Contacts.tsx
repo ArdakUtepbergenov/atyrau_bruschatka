@@ -39,13 +39,13 @@ const Contacts = () => {
                       </div>
                       <div className="flex-1">
                         <h4 className="font-semibold text-foreground">Основной телефон</h4>
-                        <p className="text-muted-foreground">+7 (7122) 12-34-56</p>
+                        <p className="text-muted-foreground">+77022410207</p>
                         <p className="text-sm text-muted-foreground">Звонки принимаем с 9:00 до 18:00</p>
                       </div>
                       <Button 
                         variant="cta" 
                         size="sm"
-                        onClick={() => window.open('tel:+77122123456')}
+                        onClick={() => window.open('tel:+77022410207')}
                       >
                         Позвонить
                       </Button>
@@ -60,7 +60,7 @@ const Contacts = () => {
                       </div>
                       <div className="flex-1">
                         <h4 className="font-semibold text-foreground">WhatsApp</h4>
-                        <p className="text-muted-foreground">+7 (708) 123-45-67</p>
+                        <p className="text-muted-foreground">+77022410207</p>
                         <p className="text-sm text-muted-foreground">Доступен 24/7 для срочных вопросов</p>
                       </div>
                       <Button 

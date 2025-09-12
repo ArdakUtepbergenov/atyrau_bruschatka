@@ -201,7 +201,7 @@ const PavingCatalog = () => {
                     <Button 
                       variant="outline" 
                       size="sm"
-                      onClick={() => window.open('tel:+77122123456')}
+                      onClick={() => window.open('tel:+77022410207')}
                     >
                       Узнать цену
                     </Button>

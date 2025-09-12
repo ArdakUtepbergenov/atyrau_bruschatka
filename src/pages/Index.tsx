@@ -14,9 +14,9 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
+        <PavingCatalog />
         <About />
         <Portfolio />
-        <PavingCatalog />
         <Advantages />
         <ContactForm />
         <Contacts />

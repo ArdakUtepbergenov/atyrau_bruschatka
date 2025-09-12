@@ -61,7 +61,7 @@ const Hero = () => {
               <Button 
                 variant="consultation" 
                 size="lg"
-                onClick={() => window.open('tel:+77122123456')}
+                onClick={() => window.open('tel:+77022410207')}
               >
                 Позвонить сейчас
               </Button>

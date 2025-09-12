@@ -149,7 +149,7 @@ const ContactForm = () => {
                     </div>
                     <div>
                       <p className="font-medium text-foreground">Телефон</p>
-                      <p className="text-muted-foreground">+7 (7122) 12-34-56</p>
+                      <p className="text-muted-foreground">+77022410207</p>
                     </div>
                   </div>
 
@@ -159,7 +159,7 @@ const ContactForm = () => {
                     </div>
                     <div>
                       <p className="font-medium text-foreground">WhatsApp</p>
-                      <p className="text-muted-foreground">+7 (708) 123-45-67</p>
+                      <p className="text-muted-foreground">+77022410207</p>
                     </div>
                   </div>
 

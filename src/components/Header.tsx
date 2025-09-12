@@ -37,7 +37,7 @@ const Header = () => {
           <div className="hidden md:flex">
             <Button variant="cta" size="sm" className="gap-2">
               <Phone className="w-4 h-4" />
-              +7 (7122) 12-34-56
+              +77022410207
             </Button>
           </div>
 
@@ -61,7 +61,7 @@ const Header = () => {
               <button onClick={() => scrollToSection('contacts')} className="text-left text-foreground hover:text-primary">Контакты</button>
               <Button variant="cta" size="sm" className="gap-2 w-fit">
                 <Phone className="w-4 h-4" />
-                +7 (7122) 12-34-56
+                +77022410207
               </Button>
             </nav>
           </div>

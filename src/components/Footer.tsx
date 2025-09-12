@@ -33,7 +33,7 @@ const Footer = () => {
                 <Button 
                   variant="outline" 
                   size="sm"
-                  onClick={() => window.open('tel:+77122123456')}
+                  onClick={() => window.open('tel:+77022410207')}
                   className="bg-transparent border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10"
                 >
                   <Phone className="w-4 h-4" />
@@ -74,7 +74,7 @@ const Footer = () => {
                 <div className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-primary-foreground/60" />
                   <div>
-                    <p className="text-primary-foreground">+7 (7122) 12-34-56</p>
+                    <p className="text-primary-foreground">+77022410207</p>
                     <p className="text-sm text-primary-foreground/60">Основной</p>
                   </div>
                 </div>
@@ -82,7 +82,7 @@ const Footer = () => {
                 <div className="flex items-center gap-3">
                   <MessageCircle className="w-5 h-5 text-primary-foreground/60" />
                   <div>
-                    <p className="text-primary-foreground">+7 (708) 123-45-67</p>
+                    <p className="text-primary-foreground">+77022410207</p>
                     <p className="text-sm text-primary-foreground/60">WhatsApp</p>
                   </div>
                 </div>

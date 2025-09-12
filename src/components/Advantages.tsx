@@ -90,7 +90,7 @@ const Advantages = () => {
                   Заказать консультацию
                 </button>
                 <button 
-                  onClick={() => window.open('tel:+77122123456')}
+                  onClick={() => window.open('tel:+77022410207')}
                   className="inline-flex items-center justify-center gap-2 bg-warm-beige text-foreground px-6 py-3 rounded-lg font-semibold hover:bg-warm-beige/90 border border-stone-gray/20"
                 >
                   Позвонить сейчас
