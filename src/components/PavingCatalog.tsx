@@ -4,36 +4,55 @@ import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { ArrowUpDown, Grid3X3, ShoppingCart } from "lucide-react";
 
+// Импорт картинок (пути из папки src/assets)
+import img1 from "@/assets/1.jpeg";
+import img2 from "@/assets/2.jpg";
+import img3 from "@/assets/3.jpg";
+import img4 from "@/assets/4.jpg";
+import img5 from "@/assets/5.jpeg";
+import img6 from "@/assets/6.jpg";
+import img7 from "@/assets/7.jpg";
+import img8 from "@/assets/8.jpg";
+import img9 from "@/assets/9.jpeg";
+import img10 from "@/assets/10.jpeg";
+import img11 from "@/assets/11.jpg";
+import img12 from "@/assets/12.jpeg";
+import img13 from "@/assets/13.jpeg";
+import img14 from "@/assets/14.jpg";
+import img15 from "@/assets/15.jpg";
+import img16 from "@/assets/16.jpg";
+import img17 from "@/assets/17.jpeg";
+import img18 from "@/assets/18.jpeg";
+import img19 from "@/assets/19.jpeg";
+import img20 from "@/assets/20.jpg";
+
 const PavingCatalog = () => {
   const [sortBy, setSortBy] = useState("name");
   const [filterBy, setFilterBy] = useState("all");
 
   // Каталог брусчатки - 19 моделей
   const pavingItems = [
-  { id: 1, name: "Вавилон", price: 4500, category: "classic", size: "Толщина 4 см", image: "/atyrau_bruschatka/assets/1.jpeg" },
-  { id: 2, name: "Узор Ташкент", price: 6500, category: "classic", size: "Толщина 5 см", image: "/atyrau_bruschatka/assets/2.jpg" },
-  { id: 3, name: "Прокурор", price: 5000, category: "classic", size: "Толщина 4 см", image: "/atyrau_bruschatka/assets/3.jpg" },
-  { id: 4, name: "Бархат", price: 5500, category: "classic", size: "Толщина 4,5 см", image: "/atyrau_bruschatka/assets/4.jpg" },
-  { id: 5, name: "Бриллиант", price: 4500, category: "classic", size: "Толщина 4 см", image: "/atyrau_bruschatka/assets/5.jpeg" },
-  { id: 6, name: "Прокурор", price: 4500, category: "classic", size: "Толщина 4 см", image: "/atyrau_bruschatka/assets/6.jpg" },
-  { id: 7, name: "Астана", price: 5000, category: "classic", size: "Толщина 4 см", image: "/atyrau_bruschatka/assets/7.jpg" },
-  { id: 8, name: "Старый город", price: 6500, category: "classic", size: "Толщина 4 см", image: "/atyrau_bruschatka/assets/8.jpg" },
-  { id: 11, name: "Мрамор Каменный цветок", price: 6500, category: "classic", size: "Толщина 4 см", image: "/atyrau_bruschatka/assets/11.jpg" },
-  { id: 14, name: "Хайтек", price: 3500, category: "classic", size: "Толщина 3 см", image: "/atyrau_bruschatka/assets/14.jpg" },
-  { id: 15, name: "Миллион", price: 4500, category: "classic", size: "Толщина 4 см", image: "/atyrau_bruschatka/assets/15.jpg" },
-  { id: 16, name: "Ромашка", price: 5500, category: "classic", size: "Толщина 4,5 см", image: "/atyrau_bruschatka/assets/16.jpg" },
-  { id: 17, name: "Старый город", price: 7500, category: "classic", size: "Толщина 4 см", image: "/atyrau_bruschatka/assets/17.jpeg" },
-  { id: 20, name: "Мрамор Вавилон", price: 6500, category: "classic", size: "Толщина 4 см", image: "/atyrau_bruschatka/assets/20.jpg" },
-
-  // остальные элементы пока без изменений
-  { id: 9, name: "Брусчатка 9", price: 5300, category: "wave", size: "Толщина 4 см", image: "/atyrau_bruschatka/assets/9.jpeg" },
-  { id: 10, name: "Брусчатка 10", price: 5400, category: "antique", size: "Толщина 4 см", image: "/atyrau_bruschatka/assets/10.jpeg" },
-  { id: 12, name: "Брусчатка 12", price: 4600, category: "concrete", size: "Толщина 4 см", image: "/atyrau_bruschatka/assets/12.jpeg" },
-  { id: 13, name: "Брусчатка 13", price: 4700, category: "geometric", size: "Толщина 4 см", image: "/atyrau_bruschatka/assets/13.jpeg" },
-  { id: 18, name: "Брусчатка 18", price: 5200, category: "classic", size: "Толщина 4 см", image: "/atyrau_bruschatka/assets/18.jpeg" },
-  { id: 19, name: "Брусчатка 19", price: 5300, category: "wave", size: "Толщина 4 см", image: "/atyrau_bruschatka/assets/19.jpeg" },
-];
-
+    { id: 1, name: "Вавилон", price: 4500, category: "classic", size: "Толщина 4 см", image: img1 },
+    { id: 2, name: "Узор Ташкент", price: 6500, category: "classic", size: "Толщина 5 см", image: img2 },
+    { id: 3, name: "Прокурор", price: 5000, category: "classic", size: "Толщина 4 см", image: img3 },
+    { id: 4, name: "Бархат", price: 5500, category: "classic", size: "Толщина 4,5 см", image: img4 },
+    { id: 5, name: "Бриллиант", price: 4500, category: "classic", size: "Толщина 4 см", image: img5 },
+    { id: 6, name: "Прокурор", price: 4500, category: "classic", size: "Толщина 4 см", image: img6 },
+    { id: 7, name: "Астана", price: 5000, category: "classic", size: "Толщина 4 см", image: img7 },
+    { id: 8, name: "Старый город", price: 6500, category: "classic", size: "Толщина 4 см", image: img8 },
+    { id: 11, name: "Мрамор Каменный цветок", price: 6500, category: "classic", size: "Толщина 4 см", image: img11 },
+    { id: 14, name: "Хайтек", price: 3500, category: "classic", size: "Толщина 3 см", image: img14 },
+    { id: 15, name: "Миллион", price: 4500, category: "classic", size: "Толщина 4 см", image: img15 },
+    { id: 16, name: "Ромашка", price: 5500, category: "classic", size: "Толщина 4,5 см", image: img16 },
+    { id: 17, name: "Старый город", price: 7500, category: "classic", size: "Толщина 4 см", image: img17 },
+    { id: 20, name: "Мрамор Вавилон", price: 6500, category: "classic", size: "Толщина 4 см", image: img20 },
+    { id: 9, name: "Брусчатка 9", price: 5300, category: "wave", size: "Толщина 4 см", image: img9 },
+    { id: 10, name: "Брусчатка 10", price: 5400, category: "antique", size: "Толщина 4 см", image: img10 },
+    { id: 12, name: "Брусчатка 12", price: 4600, category: "concrete", size: "Толщина 4 см", image: img12 },
+    { id: 13, name: "Брусчатка 13", price: 4700, category: "geometric", size: "Толщина 4 см", image: img13 },
+    { id: 18, name: "Брусчатка 18", price: 5200, category: "classic", size: "Толщина 4 см", image: img18 },
+    { id: 19, name: "Брусчатка 19", price: 5300, category: "wave", size: "Толщина 4 см", image: img19 },
+  ];
 
   const categories = [
     { value: "all", label: "Все виды" },
