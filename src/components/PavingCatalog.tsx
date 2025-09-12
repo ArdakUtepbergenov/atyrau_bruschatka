@@ -180,7 +180,7 @@ const PavingCatalog = () => {
                     {item.name}
                   </h3>
                   <p className="text-sm text-muted-foreground mb-3">
-                    Размер: {item.size} мм
+                    Размер: {item.size}
                   </p>
                   <div className="flex items-center justify-between mb-4">
                     <span className="text-2xl font-bold text-forest-green">
