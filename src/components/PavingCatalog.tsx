@@ -58,7 +58,7 @@ const PavingCatalog = () => {
   { id: 2, name: "Узор Ташкент", price: 6500, category: "classic", size: "Толщина 5 см", image: img2 },
   { id: 3, name: "Прокурор цветной", price: 5000, category: "classic", size: "Толщина 4 см", image: img3 },
   { id: 4, name: "Бархат", price: 5500, category: "classic", size: "Толщина 4,5 см", image: img4 },
-  { id: 5, name: "Бриллиант", price: 4500, category: "classic", size: "Толщина 4 см", image: img5 },
+  { id: 5, name: "Бриллиант", price: 5000, category: "classic", size: "Толщина 4 см", image: img5 },
   { id: 6, name: "Прокурор серый", price: 4500, category: "classic", size: "Толщина 4 см", image: img6 },
   { id: 7, name: "Астана", price: 5000, category: "classic", size: "Толщина 4 см", image: img7 },
   { id: 8, name: "Старый город", price: 6500, category: "classic", size: "Толщина 4 см", image: img8 },
@@ -73,8 +73,8 @@ const PavingCatalog = () => {
   { id: 9, name: "Брусчатка 9", price: 6500, category: "classic",  size: "Толщина 4 см", image: img9 },
   { id: 10, name: "Вавилон желтый", price: 5000, category: "antique", size: "Толщина 4 см", image: img10 },
   //{ id: 12, name: "Брусчатка 12", price: 4600, category: "concrete", size: "350x350x50", image: img12 },
-  { id: 13, name: "Брусчатка 13", price: 6500, category: "geometric", size: "Толщина 4 см", image: img13 },
-  { id: 18, name: "Брусчатка 18", price: 4500, category: "classic", size: "Толщина 4 см", image: img18 },
+  { id: 13, name: "Брусчатка 13", price: 4500, category: "geometric", size: "Толщина 4 см", image: img13 },
+  { id: 18, name: "Брусчатка 18", price: 5000, category: "classic", size: "Толщина 4 см", image: img18 },
   { id: 19, name: "Брусчатка 40x40", price: 6500, category: "wave", size: "Толщина 5 см", image: img19 },
 ];
 
