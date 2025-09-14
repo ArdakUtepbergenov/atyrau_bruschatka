@@ -165,11 +165,28 @@ const ContactForm = () => {
 
                   <div className="flex items-center gap-4 p-4 bg-card rounded-lg shadow-card">
                     <div className="w-12 h-12 bg-accent rounded-full flex items-center justify-center">
-                      <Mail className="w-6 h-6 text-forest-green" />
+                      <svg
+  xmlns="http://www.w3.org/2000/svg"
+  className="w-5 h-5 text-primary-foreground/60"
+  viewBox="0 0 24 24"
+  fill="currentColor"
+>
+  <path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 
+    2.243 5 5 5h10c2.757 0 5-2.243 
+    5-5V7c0-2.757-2.243-5-5-5H7zm0 
+    2h10c1.654 0 3 1.346 3 
+    3v10c0 1.654-1.346 3-3 
+    3H7c-1.654 0-3-1.346-3-3V7c0-1.654 
+    1.346-3 3-3zm10 1a1 1 0 100 2 
+    1 1 0 000-2zM12 7a5 5 0 
+    100 10 5 5 0 000-10zm0 
+    2a3 3 0 110 6 3 3 0 010-6z" />
+</svg>
+
                     </div>
                     <div>
-                      <p className="font-medium text-foreground">Email</p>
-                      <p className="text-muted-foreground">info@atyrau-paving.kz</p>
+                      <p className="font-medium text-foreground">Инстаграм</p>
+                      <p className="text-muted-foreground">@atyrau_brushatka</p>
                     </div>
                   </div>
                 </div>
@@ -180,9 +197,7 @@ const ContactForm = () => {
                   Режим работы
                 </h4>
                 <div className="space-y-2 text-muted-foreground">
-                  <p><span className="font-medium">Пн-Пт:</span> 9:00 - 18:00</p>
-                  <p><span className="font-medium">Сб:</span> 10:00 - 16:00</p>
-                  <p><span className="font-medium">Вс:</span> выходной</p>
+                  <p><span className="font-medium">Без выходных:</span> 9:00 - 19:00</p>
                 </div>
                 <p className="text-sm text-forest-green mt-4 font-medium">
                   Бесплатные консультации и выезд на объект!
