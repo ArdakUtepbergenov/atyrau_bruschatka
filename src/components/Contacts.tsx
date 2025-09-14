@@ -168,17 +168,18 @@ const Contacts = () => {
               
               {/* Google Maps Embed */}
               <div className="aspect-video bg-gradient-card rounded-xl overflow-hidden shadow-card">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93326.29509592743!2d51.88447457123487!3d47.11672969803887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41fd1caa566be063%3A0x7dce6ac31c52384c!2sAtyrau!5e0!3m2!1sen!2skz!4v1652345678901!5m2!1sen!2skz"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Карта офиса Атырау Брусчатка"
-                ></iframe>
-              </div>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4782.69161635629!2d51.895606!3d47.067602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41fd1bb8f41d5c9b%3A0x6e2a40d30f0f5f62!2sЮжная%20промзона%2031А%2C%20Atyrau%2C%20Kazakhstan!5e0!3m2!1sru!2skz!4v1699999999999!5m2!1sru!2skz"
+    width="100%"
+    height="100%"
+    style={{ border: 0 }}
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    title="Карта офиса Атырау Брусчатка"
+  ></iframe>
+</div>
+
 
               {/* Location Benefits */}
               <div className="grid grid-cols-2 gap-4">
