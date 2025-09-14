@@ -25,25 +25,25 @@ import { ArrowUpDown, Grid3X3, ShoppingCart } from "lucide-react";
 // import img18 from "@/assets/18.JPG";
 // import img19 from "@/assets/19.JPG";
 
-import img1 from "@/assets/1.jpeg";
+import img1 from "@/assets/";
 import img2 from "@/assets/2.jpg";
 import img3 from "@/assets/3.jpg";
 import img4 from "@/assets/4.jpg";
-import img5 from "@/assets/";
+import img5 from "@/assets/brilliant.jpeg";
 import img6 from "@/assets/6.jpg";
 import img7 from "@/assets/7.jpg";
 import img8 from "@/assets/8.jpg";
 import img9 from "@/assets/9.jpeg";
-import img10 from "@/assets/";
+import img10 from "@/assets/vavilion.jpeg";
 import img11 from "@/assets/11.jpg";
 import img12 from "@/assets/12.jpeg";
 import img13 from "@/assets/13.jpeg";
-import img14 from "@/assets/14.jpg";
+import img14 from "@/assets/hightech.jpg";
 import img15 from "@/assets/15.jpg";
 import img16 from "@/assets/16.jpg";
-import img17 from "@/assets/17.jpeg";
-import img18 from "@/assets/brilliant.jpeg";
-import img19 from "@/assets/19.jpeg";
+import img17 from "@/assets/vavilon.jpeg";
+import img18 from "@/assets/18.jpeg";
+import img19 from "@/assets/40x40.jpeg";
 import img20 from "@/assets/20.jpg";
 
 
