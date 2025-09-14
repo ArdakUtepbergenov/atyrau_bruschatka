@@ -40,7 +40,7 @@ const Contacts = () => {
                       <div className="flex-1">
                         <h4 className="font-semibold text-foreground">Основной телефон</h4>
                         <p className="text-muted-foreground">+77022410207</p>
-                        <p className="text-sm text-muted-foreground">Звонки принимаем с 9:00 до 18:00</p>
+                        <p className="text-sm text-muted-foreground">Звонки принимаем с 9:00 до 19:00</p>
                       </div>
                       <Button 
                         variant="cta" 
@@ -102,8 +102,7 @@ const Contacts = () => {
                       </div>
                       <div className="flex-1">
                         <h4 className="font-semibold text-foreground">Наш офис</h4>
-                        <p className="text-muted-foreground">г. Атырау, ул. Абая, 45</p>
-                        <p className="text-sm text-muted-foreground">Офис 12, 2 этаж</p>
+                        <p className="text-muted-foreground">г. Атырау, Южная Промзона 31а</p>
                       </div>
                     </CardContent>
                   </Card>
@@ -117,9 +116,7 @@ const Contacts = () => {
                       <div className="flex-1">
                         <h4 className="font-semibold text-foreground">Режим работы</h4>
                         <div className="text-muted-foreground space-y-1">
-                          <p>Пн-Пт: 9:00 - 18:00</p>
-                          <p>Сб: 10:00 - 16:00</p>
-                          <p>Вс: выходной</p>
+                          <p>Без выходных: 9:00 - 19:00</p>
                         </div>
                       </div>
                     </CardContent>
