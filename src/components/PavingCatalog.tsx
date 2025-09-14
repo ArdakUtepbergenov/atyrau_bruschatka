@@ -54,7 +54,7 @@ const PavingCatalog = () => {
 
   // Каталог брусчатки - 19 моделей
   const pavingItems = [
-  { id: 1, name: "Вавилон", price: 4500, category: "classic", size: "Толщина 4 см", image: img1 },
+  { id: 1, name: "Бриллиант серый", price: 4500, category: "classic", size: "Толщина 4 см", image: img1 },
   { id: 2, name: "Узор Ташкент", price: 6500, category: "classic", size: "Толщина 5 см", image: img2 },
   { id: 3, name: "Прокурор цветной", price: 5000, category: "classic", size: "Толщина 4 см", image: img3 },
   { id: 4, name: "Бархат", price: 5500, category: "classic", size: "Толщина 4,5 см", image: img4 },
