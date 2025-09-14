@@ -38,7 +38,7 @@ import img10 from "@/assets/vavilion.jpeg";
 import img11 from "@/assets/11.jpg";
 import img12 from "@/assets/12.jpeg";
 import img13 from "@/assets/13.jpeg";
-import img14 from "@/assets/hightech.jpg";
+import img14 from "@/assets/hightech.jpeg";
 import img15 from "@/assets/15.jpg";
 import img16 from "@/assets/16.jpg";
 import img17 from "@/assets/vavilon.jpeg";
