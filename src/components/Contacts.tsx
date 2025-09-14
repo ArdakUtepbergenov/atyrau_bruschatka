@@ -77,11 +77,28 @@ const Contacts = () => {
                   <Card className="shadow-card hover:shadow-hero transition-shadow">
                     <CardContent className="flex items-center gap-4 p-6">
                       <div className="w-12 h-12 bg-forest-green/10 rounded-full flex items-center justify-center">
-                        <Mail className="w-6 h-6 text-forest-green" />
+                        <svg
+  xmlns="http://www.w3.org/2000/svg"
+  className="w-5 h-5 text-primary-foreground/60"
+  viewBox="0 0 24 24"
+  fill="currentColor"
+>
+  <path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 
+    2.243 5 5 5h10c2.757 0 5-2.243 
+    5-5V7c0-2.757-2.243-5-5-5H7zm0 
+    2h10c1.654 0 3 1.346 3 
+    3v10c0 1.654-1.346 3-3 
+    3H7c-1.654 0-3-1.346-3-3V7c0-1.654 
+    1.346-3 3-3zm10 1a1 1 0 100 2 
+    1 1 0 000-2zM12 7a5 5 0 
+    100 10 5 5 0 000-10zm0 
+    2a3 3 0 110 6 3 3 0 010-6z" />
+</svg>
+
                       </div>
                       <div className="flex-1">
-                        <h4 className="font-semibold text-foreground">Электронная почта</h4>
-                        <p className="text-muted-foreground">info@atyrau-paving.kz</p>
+                        <h4 className="font-semibold text-foreground">Инстаграм</h4>
+                        <p className="text-muted-foreground">@atyrau_brushatka</p>
                         <p className="text-sm text-muted-foreground">Отвечаем в течение 2 часов</p>
                       </div>
                       <Button 
@@ -101,7 +118,7 @@ const Contacts = () => {
                         <MapPin className="w-6 h-6 text-forest-green" />
                       </div>
                       <div className="flex-1">
-                        <h4 className="font-semibold text-foreground">Наш офис</h4>
+                        <h4 className="font-semibold text-foreground">Наш адрес</h4>
                         <p className="text-muted-foreground">г. Атырау, Южная Промзона 31а</p>
                       </div>
                     </CardContent>
