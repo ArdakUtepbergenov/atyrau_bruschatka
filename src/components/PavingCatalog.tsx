@@ -67,12 +67,12 @@ const PavingCatalog = () => {
   { id: 15, name: "Миллион", price: 4500, category: "classic", size: "Толщина 4 см", image: img15 },
   { id: 16, name: "Ромашка", price: 5500, category: "classic", size: "Толщина 4,5 см", image: img16 },
   { id: 17, name: "Старый город", price: 7500, category: "classic", size: "Толщина 4 см", image: img17 },
-  { id: 20, name: "Мрамор Вавилон", price: 6500, category: "classic", size: "Толщина 4 см", image: img20 },
+  { id: 12, name: "Мрамор Вавилон", price: 6500, category: "classic", size: "Толщина 4 см", image: img20 },
 
   // остальные элементы пока без изменений
   { id: 9, name: "Брусчатка 9", price: 5300, category: "classic", size: "Толщина 4 см", image: img9 },
   { id: 10, name: "Вавилон желтый", price: 5000, category: "antique", size: "Толщина 4 см", image: img10 },
-  { id: 12, name: "Брусчатка 12", price: 4600, category: "concrete", size: "350x350x50", image: img12 },
+  //{ id: 12, name: "Брусчатка 12", price: 4600, category: "concrete", size: "350x350x50", image: img12 },
   { id: 13, name: "Брусчатка 13", price: 4700, category: "geometric", size: "170x140x60", image: img13 },
   { id: 18, name: "Брусчатка 18", price: 5200, category: "classic", size: "160x240x60", image: img18 },
   { id: 19, name: "Брусчатка 19", price: 5300, category: "wave", size: "340x340x45", image: img19 },
