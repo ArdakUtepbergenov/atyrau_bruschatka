@@ -90,8 +90,7 @@ const Footer = () => {
                 <div className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-primary-foreground/60 mt-0.5" />
                   <div>
-                    <p className="text-primary-foreground">г. Атырау, ул. Абая, 45</p>
-                    <p className="text-sm text-primary-foreground/60">Офис 12, 2 этаж</p>
+                    <p className="text-primary-foreground">г. Атырау, Южная Промзона 31а</p>
                   </div>
                 </div>
 
@@ -105,8 +104,7 @@ const Footer = () => {
 
               <div className="bg-primary-foreground/10 rounded-lg p-3">
                 <p className="text-sm text-primary-foreground/80 mb-2">Режим работы:</p>
-                <p className="text-sm text-primary-foreground">Пн-Пт: 9:00-18:00</p>
-                <p className="text-sm text-primary-foreground">Сб: 10:00-16:00</p>
+                <p className="text-sm text-primary-foreground">Без выходных: 9:00-19:00</p>
               </div>
             </div>
           </div>
@@ -120,9 +118,9 @@ const Footer = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4 text-sm text-primary-foreground/60">
-              <span>Лицензия № АТ-123456</span>
+
               <span>•</span>
-              <span>ИИН: 123456789012</span>
+         
             </div>
           </div>
           
