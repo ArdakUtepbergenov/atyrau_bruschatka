@@ -33,7 +33,7 @@ import img5 from "@/assets/brilliantfinal.jpeg";
 import img6 from "@/assets/6.jpg";
 import img7 from "@/assets/7.jpg";
 import img8 from "@/assets/staryigorod.jpeg";
-// import img9 from "@/assets/9.jpeg";
+import img9 from "@/assets/9.jpeg";
 import img10 from "@/assets/vavilion.jpeg";
 import img11 from "@/assets/11.jpg";
 import img12 from "@/assets/12.jpeg";
@@ -70,7 +70,7 @@ const PavingCatalog = () => {
   { id: 20, name: "Мрамор Вавилон", price: 6500, category: "classic", size: "Толщина 4 см", image: img20 },
 
   // остальные элементы пока без изменений
-  { id: 9, name: "Брусчатка 9", price: 5300, category: "wave", size: "300x300x30", image: img9 },
+  //{ id: 9, name: "Брусчатка 9", price: 5300, category: "wave", size: "300x300x30", image: img9 },
   { id: 10, name: "Вавилон желтый", price: 5000, category: "antique", size: "Толщина 4 см", image: img10 },
   { id: 12, name: "Брусчатка 12", price: 4600, category: "concrete", size: "350x350x50", image: img12 },
   { id: 13, name: "Брусчатка 13", price: 4700, category: "geometric", size: "170x140x60", image: img13 },
