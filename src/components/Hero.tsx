@@ -70,11 +70,11 @@ const Hero = () => {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8 pt-8 border-t border-border">
               <div className="text-center">
-                <div className="text-2xl font-bold text-forest-green">200+</div>
+                <div className="text-2xl font-bold text-forest-green">1000+</div>
                 <div className="text-sm text-muted-foreground">Объектов</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-forest-green">5</div>
+                <div className="text-2xl font-bold text-forest-green">7</div>
                 <div className="text-sm text-muted-foreground">Лет опыта</div>
               </div>
               <div className="text-center">
@@ -96,7 +96,7 @@ const Hero = () => {
               
               {/* Floating Badge */}
               <div className="absolute top-4 right-4 bg-card/90 backdrop-blur-sm rounded-full px-4 py-2 shadow-card">
-                <span className="text-sm font-semibold text-forest-green">5 лет опыта</span>
+                <span className="text-sm font-semibold text-forest-green">7 лет опыта</span>
               </div>
             </div>
           </div>
