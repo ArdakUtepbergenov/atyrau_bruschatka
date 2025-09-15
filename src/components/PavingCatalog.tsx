@@ -36,7 +36,7 @@ import img8 from "@/assets/staryigorod.jpeg";
 import img9 from "@/assets/30x30.jpg";
 import img10 from "@/assets/vavilion.jpeg";
 import img11 from "@/assets/11.jpg";
-import img12 from "@/assets/12.jpeg";
+import img12 from "@/assets/hightechstaryi.jpeg";
 import img13 from "@/assets/13.jpg";
 import img14 from "@/assets/hightech.jpg";
 import img15 from "@/assets/15.jpg";
@@ -72,7 +72,7 @@ const PavingCatalog = () => {
   // остальные элементы пока без изменений
   { id: 19, name: "Плитка 30х30", price: 3500, category: "classic",  size: "Толщина 3 см", image: img9 },
   { id: 10, name: "Вавилон желтый", price: 5000, category: "antique", size: "Толщина 4 см", image: img10 },
-  //{ id: 12, name: "Брусчатка 12", price: 4600, category: "concrete", size: "350x350x50", image: img12 },
+  { id: 20, name: "Хайтек", price: 3500, category: "concrete", size: "Толщина 3 см", image: img12 },
   { id: 13, name: "Атырау", price: 6500, category: "geometric", size: "Толщина 5 см", image: img13 },
   { id: 18, name: "Брусчатка 18", price: 5000, category: "classic", size: "Толщина 4 см", image: img18 },
   { id: 9, name: "Брусчатка 40x40", price: 6500, category: "wave", size: "Толщина 5 см", image: img19 },
