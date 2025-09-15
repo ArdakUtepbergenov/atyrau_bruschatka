@@ -61,7 +61,7 @@ const PavingCatalog = () => {
   { id: 5, name: "Бриллиант", price: 5000, category: "classic", size: "Толщина 4 см", image: img5 },
   { id: 6, name: "Прокурор серый", price: 4500, category: "classic", size: "Толщина 4 см", image: img6 },
   { id: 7, name: "Астана", price: 5000, category: "classic", size: "Толщина 4 см", image: img7 },
-  { id: 8, name: "Старый город", price: 6500, category: "classic", size: "Толщина 4 см", image: img8 },
+  { id: 8, name: "Старый город", price: 7500, category: "classic", size: "Толщина 4 см", image: img8 },
   { id: 11, name: "Мрамор Каменный цветок", price: 6500, category: "classic", size: "Толщина 4 см", image: img11 },
   { id: 14, name: "Хайтек", price: 3500, category: "classic", size: "Толщина 3 см", image: img14 },
   { id: 15, name: "Миллион", price: 4500, category: "classic", size: "Толщина 4 см", image: img15 },
