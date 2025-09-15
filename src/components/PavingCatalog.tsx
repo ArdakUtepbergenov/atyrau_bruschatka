@@ -45,6 +45,7 @@ import img17 from "@/assets/vavilon.jpeg";
 import img18 from "@/assets/18.jpeg";
 import img19 from "@/assets/40x40.jpeg";
 import img20 from "@/assets/20.jpg";
+import img21 from "@/assets/prokurorjeltyi.jpg";
 
 
 
@@ -60,6 +61,7 @@ const PavingCatalog = () => {
   { id: 4, name: "Бархат", price: 5500, category: "classic", size: "Толщина 4,5 см", image: img4 },
   { id: 5, name: "Бриллиант", price: 5000, category: "classic", size: "Толщина 4 см", image: img5 },
   { id: 6, name: "Прокурор серый", price: 4500, category: "classic", size: "Толщина 4 см", image: img6 },
+  { id: 21, name: "Прокурор жёлтый", price: 5000, category: "classic", size: "Толщина 4 см", image: img21 },
   { id: 7, name: "Астана", price: 5000, category: "classic", size: "Толщина 4 см", image: img7 },
   { id: 8, name: "Старый город", price: 7500, category: "classic", size: "Толщина 4 см", image: img8 },
   { id: 11, name: "Мрамор Каменный цветок", price: 6500, category: "classic", size: "Толщина 4 см", image: img11 },
