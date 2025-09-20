@@ -7,7 +7,7 @@ import { ArrowUpDown, Grid3X3, ShoppingCart } from "lucide-react";
 // Импорты картинок
 // import img1 from "@/assets/1.jpeg";
 // import img2 from "@/assets/2.JPG";
-// import img3 from "@/assets/3.JPG";
+// import img3 from "@/assets/3.JPG";а
 // import img4 from "@/assets/4.JPG";
 // import img5 from "@/assets/5.jpeg";
 // import img6 from "@/assets/6.JPG";
