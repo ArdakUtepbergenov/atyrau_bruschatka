@@ -76,7 +76,7 @@ const PavingCatalog = () => {
   { id: 12, name: "Мрамор Вавилон", price: 6500, category: "classic", size: "Толщина 4 см", image: img20 },
   { id: 22, name: "Поребрик серый", price: 1500, category: "classic", size: "", image: img22 },
   { id: 23, name: "Поребрик цветной", price: 3000, category: "classic", size: "", image: img23 },
-  { id: 24, name: "Поребрик", price: 3000, category: "classic", size: "", image: img24 },
+  { id: 24, name: "Поребрик", price: 1500, category: "classic", size: "", image: img24 },
 
   // остальные элементы пока без изменений
   { id: 19, name: "Плитка 30х30", price: 3500, category: "classic",  size: "Толщина 3 см", image: img9 },
