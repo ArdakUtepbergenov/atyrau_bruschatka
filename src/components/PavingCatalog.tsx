@@ -46,8 +46,8 @@ import img18 from "@/assets/18.jpeg";
 import img19 from "@/assets/40x40.jpeg";
 import img20 from "@/assets/20.jpg";
 import img21 from "@/assets/prokurorjeltyi.jpg";
-import img22 from "@/assets/porebrikseryi.JPG";
-import img23 from "@/assets/porebrikcvetnoy.JPG";
+import img22 from "@/assets/porebrikseryi.jpg";
+import img23 from "@/assets/porebrikcvetnoy.jpg";
 
 
 
