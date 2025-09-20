@@ -46,6 +46,9 @@ import img18 from "@/assets/18.jpeg";
 import img19 from "@/assets/40x40.jpeg";
 import img20 from "@/assets/20.jpg";
 import img21 from "@/assets/prokurorjeltyi.jpg";
+import img22 from "@/assets/porebrikseryi.jpg";
+import img23 from "@/assets/porebrikcvetnoy.jpg";
+
 
 
 
@@ -70,6 +73,8 @@ const PavingCatalog = () => {
   { id: 16, name: "Ромашка", price: 5500, category: "classic", size: "Толщина 4,5 см", image: img16 },
   { id: 17, name: "Вавилон", price: 4500, category: "classic", size: "Толщина 4 см", image: img17 },
   { id: 12, name: "Мрамор Вавилон", price: 6500, category: "classic", size: "Толщина 4 см", image: img20 },
+  { id: 22, name: "Поребрик серый", price: 1500, category: "classic", size: "", image: img22 },
+  { id: 23, name: "Поребрик цветной", price: 3000, category: "classic", size: "", image: img23 },
 
   // остальные элементы пока без изменений
   { id: 19, name: "Плитка 30х30", price: 3500, category: "classic",  size: "Толщина 3 см", image: img9 },
