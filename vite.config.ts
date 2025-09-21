@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/atyrau_bruschatka/", // ✅ исправлено для кастомного домена
+  base: "./", // ✅ исправлено для кастомного домена
   server: {
     host: "::",
     port: 8080,
