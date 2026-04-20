@@ -49,6 +49,10 @@ import img21 from "@/assets/prokurorjeltyi.jpg";
 import img22 from "@/assets/porebrikseryi.jpg";
 import img23 from "@/assets/porebrikcvetnoy.jpg";
 import img24 from "@/assets/porebrik.jpg";
+import img25 from "@/assets/astana_mramor.jpeg";
+import img26 from "@/assets/atyrau_mramor.jpeg";
+import img27 from "@/assets/parket_mramor.jpeg";
+import img28 from "@/assets/kamennyi_cvetok.jpeg";
 
 
 
@@ -59,32 +63,36 @@ const PavingCatalog = () => {
 
   // Каталог брусчатки - 19 моделей
   const pavingItems = [
-  { id: 1, name: "Бриллиант серый", price: 4500, category: "classic", size: "Толщина 4 см", image: img1 },
-  { id: 2, name: "Узор Ташкент", price: 6500, category: "classic", size: "Толщина 5 см", image: img2 },
-  { id: 3, name: "Прокурор цветной", price: 5000, category: "classic", size: "Толщина 4 см", image: img3 },
-  { id: 4, name: "Бархат", price: 5500, category: "classic", size: "Толщина 4,5 см", image: img4 },
-  { id: 5, name: "Бриллиант", price: 5000, category: "classic", size: "Толщина 4 см", image: img5 },
-  { id: 6, name: "Прокурор серый", price: 4500, category: "classic", size: "Толщина 4 см", image: img6 },
-  { id: 21, name: "Прокурор жёлтый", price: 5000, category: "classic", size: "Толщина 4 см", image: img21 },
-  { id: 7, name: "Астана", price: 5000, category: "classic", size: "Толщина 4 см", image: img7 },
-  { id: 8, name: "Старый город", price: 7500, category: "classic", size: "Толщина 4 см", image: img8 },
-  { id: 11, name: "Мрамор Каменный цветок", price: 6500, category: "classic", size: "Толщина 4 см", image: img11 },
-  { id: 14, name: "Хайтек", price: 3500, category: "classic", size: "Толщина 3 см", image: img14 },
-  { id: 15, name: "Миллион", price: 4500, category: "classic", size: "Толщина 4 см", image: img15 },
-  { id: 16, name: "Ромашка", price: 5500, category: "classic", size: "Толщина 4,5 см", image: img16 },
-  { id: 17, name: "Вавилон", price: 4500, category: "classic", size: "Толщина 4 см", image: img17 },
-  { id: 12, name: "Мрамор Вавилон", price: 6500, category: "classic", size: "Толщина 4 см", image: img20 },
-  { id: 22, name: "Поребрик серый", price: 1500, category: "classic", size: "", image: img22 },
-  { id: 23, name: "Поребрик цветной", price: 3000, category: "classic", size: "", image: img23 },
-  { id: 24, name: "Поребрик серый", price: 1500, category: "classic", size: "", image: img24 },
+  { id: 1, name: "Астана  Мрамор", price: 7500, category: "classic", size: "Толщина 4 см", image: img25 },
+  { id: 2, name: "Атырау мрамор", price: 8000, category: "classic", size: "Толщина 5 см", image: img26 },
+  { id: 3, name: "Паркет  мрамор", price: 7500, category: "classic", size: "Толщина 4 см", image: img27 },
+  { id: 4, name: "Каменный цветок", price: 7500, category: "classic", size: "Толщина 4 см", image: img28 },
+  { id: 5, name: "Бриллиант серый", price: 4500, category: "classic", size: "Толщина 4 см", image: img1 },
+  { id: 6, name: "Узор Ташкент", price: 6500, category: "classic", size: "Толщина 5 см", image: img2 },
+  { id: 7, name: "Прокурор цветной", price: 5000, category: "classic", size: "Толщина 4 см", image: img3 },
+  { id: 8, name: "Бархат", price: 5500, category: "classic", size: "Толщина 4,5 см", image: img4 },
+  { id: 9, name: "Бриллиант", price: 5000, category: "classic", size: "Толщина 4 см", image: img5 },
+  { id: 10, name: "Прокурор серый", price: 4500, category: "classic", size: "Толщина 4 см", image: img6 },
+  { id: 25, name: "Прокурор жёлтый", price: 5000, category: "classic", size: "Толщина 4 см", image: img21 },
+  { id: 11, name: "Астана", price: 5000, category: "classic", size: "Толщина 4 см", image: img7 },
+  { id: 12, name: "Старый город", price: 7500, category: "classic", size: "Толщина 4 см", image: img8 },
+  { id: 15, name: "Мрамор Каменный цветок", price: 6500, category: "classic", size: "Толщина 4 см", image: img11 },
+  { id: 18, name: "Хайтек", price: 3500, category: "classic", size: "Толщина 3 см", image: img14 },
+  { id: 19, name: "Миллион", price: 4500, category: "classic", size: "Толщина 4 см", image: img15 },
+  { id: 20, name: "Ромашка", price: 5500, category: "classic", size: "Толщина 4,5 см", image: img16 },
+  { id: 21, name: "Вавилон", price: 4500, category: "classic", size: "Толщина 4 см", image: img17 },
+  { id: 16, name: "Мрамор Вавилон", price: 6500, category: "classic", size: "Толщина 4 см", image: img20 },
+  { id: 26, name: "Поребрик серый", price: 1500, category: "classic", size: "", image: img22 },
+  { id: 27, name: "Поребрик цветной", price: 3000, category: "classic", size: "", image: img23 },
+  { id: 28, name: "Поребрик серый", price: 1500, category: "classic", size: "", image: img24 },
 
   // остальные элементы пока без изменений
-  { id: 19, name: "Плитка 30х30", price: 3500, category: "classic",  size: "Толщина 3 см", image: img9 },
-  { id: 10, name: "Вавилон желтый", price: 5000, category: "antique", size: "Толщина 4 см", image: img10 },
-  { id: 20, name: "Хайтек", price: 3500, category: "concrete", size: "Толщина 3 см", image: img12 },
-  { id: 13, name: "Атырау", price: 6500, category: "geometric", size: "Толщина 5 см", image: img13 },
-  { id: 18, name: "Астана жёлтый", price: 5000, category: "classic", size: "Толщина 4 см", image: img18 },
-  { id: 9, name: "Брусчатка 40x40", price: 6500, category: "wave", size: "Толщина 5 см", image: img19 },
+  { id: 23, name: "Плитка 30х30", price: 3500, category: "classic",  size: "Толщина 3 см", image: img9 },
+  { id: 14, name: "Вавилон желтый", price: 5000, category: "antique", size: "Толщина 4 см", image: img10 },
+  { id: 24, name: "Хайтек", price: 3500, category: "concrete", size: "Толщина 3 см", image: img12 },
+  { id: 17, name: "Атырау", price: 6500, category: "geometric", size: "Толщина 5 см", image: img13 },
+  { id: 22, name: "Астана жёлтый", price: 5000, category: "classic", size: "Толщина 4 см", image: img18 },
+  { id: 13, name: "Брусчатка 40x40", price: 6500, category: "wave", size: "Толщина 5 см", image: img19 },
 ];
 
 
