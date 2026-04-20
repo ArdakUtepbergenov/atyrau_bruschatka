@@ -4,7 +4,27 @@ import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { ArrowUpDown, Grid3X3, ShoppingCart } from "lucide-react";
 
-// Импорты изображений
+// Импорты картинок
+// import img1 from "@/assets/1.jpeg";
+// import img2 from "@/assets/2.JPG";
+// import img3 from "@/assets/3.JPG";а
+// import img4 from "@/assets/4.JPG";
+// import img5 from "@/assets/5.jpeg";
+// import img6 from "@/assets/6.JPG";
+// import img7 from "@/assets/7.JPG";
+// import img8 from "@/assets/8.JPG";
+// import img9 from "@/assets/9.JPG";
+// import img10 from "@/assets/10.JPG";
+// import img11 from "@/assets/11.JPG";
+// import img12 from "@/assets/12.JPG";
+// import img13 from "@/assets/13.JPG";
+// import img14 from "@/assets/14.JPG";
+// import img15 from "@/assets/15.JPG";
+// import img16 from "@/assets/16.JPG";
+// import img17 from "@/assets/17.jpeg";
+// import img18 from "@/assets/18.JPG";
+// import img19 from "@/assets/19.JPG";
+
 import img1 from "@/assets/brilliantseryi.jpeg";
 import img2 from "@/assets/2.jpg";
 import img3 from "@/assets/3.jpg";
@@ -34,49 +54,60 @@ import img26 from "@/assets/atyrau_mramor.jpeg";
 import img27 from "@/assets/parket_mramor.jpeg";
 import img28 from "@/assets/kamennyi_cvetok.jpeg";
 
+
+
+
 const PavingCatalog = () => {
-  // ✅ по умолчанию теперь id
   const [sortBy, setSortBy] = useState("id");
   const [filterBy, setFilterBy] = useState("all");
 
+  // Каталог брусчатки - 19 моделей
   const pavingItems = [
-    { id: 1, name: "Астана  Мрамор", price: 7500, category: "classic", size: "Толщина 4 см", image: img25 },
-    { id: 2, name: "Атырау мрамор", price: 8000, category: "classic", size: "Толщина 5 см", image: img26 },
-    { id: 3, name: "Паркет  мрамор", price: 7500, category: "classic", size: "Толщина 4 см", image: img27 },
-    { id: 4, name: "Каменный цветок", price: 7500, category: "classic", size: "Толщина 4 см", image: img28 },
-    { id: 5, name: "Бриллиант серый", price: 4500, category: "classic", size: "Толщина 4 см", image: img1 },
-    { id: 6, name: "Узор Ташкент", price: 6500, category: "classic", size: "Толщина 5 см", image: img2 },
-    { id: 7, name: "Прокурор цветной", price: 5000, category: "classic", size: "Толщина 4 см", image: img3 },
-    { id: 8, name: "Бархат", price: 5500, category: "classic", size: "Толщина 4,5 см", image: img4 },
-    { id: 9, name: "Бриллиант", price: 5000, category: "classic", size: "Толщина 4 см", image: img5 },
-    { id: 10, name: "Прокурор серый", price: 4500, category: "classic", size: "Толщина 4 см", image: img6 },
-    { id: 25, name: "Прокурор жёлтый", price: 5000, category: "classic", size: "Толщина 4 см", image: img21 },
-    { id: 11, name: "Астана", price: 5000, category: "classic", size: "Толщина 4 см", image: img7 },
-    { id: 12, name: "Старый город", price: 7500, category: "classic", size: "Толщина 4 см", image: img8 },
-    { id: 15, name: "Мрамор Каменный цветок", price: 6500, category: "classic", size: "Толщина 4 см", image: img11 },
-    { id: 18, name: "Хайтек", price: 3500, category: "classic", size: "Толщина 3 см", image: img14 },
-    { id: 19, name: "Миллион", price: 4500, category: "classic", size: "Толщина 4 см", image: img15 },
-    { id: 20, name: "Ромашка", price: 5500, category: "classic", size: "Толщина 4,5 см", image: img16 },
-    { id: 21, name: "Вавилон", price: 4500, category: "classic", size: "Толщина 4 см", image: img17 },
-    { id: 16, name: "Мрамор Вавилон", price: 6500, category: "classic", size: "Толщина 4 см", image: img20 },
-    { id: 26, name: "Поребрик серый", price: 1500, category: "classic", size: "", image: img22 },
-    { id: 27, name: "Поребрик цветной", price: 3000, category: "classic", size: "", image: img23 },
-    { id: 28, name: "Поребрик серый", price: 1500, category: "classic", size: "", image: img24 },
-    { id: 23, name: "Плитка 30х30", price: 3500, category: "classic", size: "Толщина 3 см", image: img9 },
-    { id: 14, name: "Вавилон желтый", price: 5000, category: "antique", size: "Толщина 4 см", image: img10 },
-    { id: 24, name: "Хайтек", price: 3500, category: "concrete", size: "Толщина 3 см", image: img12 },
-    { id: 17, name: "Атырау", price: 6500, category: "geometric", size: "Толщина 5 см", image: img13 },
-    { id: 22, name: "Астана жёлтый", price: 5000, category: "classic", size: "Толщина 4 см", image: img18 },
-    { id: 13, name: "Брусчатка 40x40", price: 6500, category: "wave", size: "Толщина 5 см", image: img19 },
-  ];
+  { id: 1, name: "Астана  Мрамор", price: 7500, category: "classic", size: "Толщина 4 см", image: img25 },
+  { id: 2, name: "Атырау мрамор", price: 8000, category: "classic", size: "Толщина 5 см", image: img26 },
+  { id: 3, name: "Паркет  мрамор", price: 7500, category: "classic", size: "Толщина 4 см", image: img27 },
+  { id: 4, name: "Каменный цветок", price: 7500, category: "classic", size: "Толщина 4 см", image: img28 },
+  { id: 5, name: "Бриллиант серый", price: 4500, category: "classic", size: "Толщина 4 см", image: img1 },
+  { id: 6, name: "Узор Ташкент", price: 6500, category: "classic", size: "Толщина 5 см", image: img2 },
+  { id: 7, name: "Прокурор цветной", price: 5000, category: "classic", size: "Толщина 4 см", image: img3 },
+  { id: 8, name: "Бархат", price: 5500, category: "classic", size: "Толщина 4,5 см", image: img4 },
+  { id: 9, name: "Бриллиант", price: 5000, category: "classic", size: "Толщина 4 см", image: img5 },
+  { id: 10, name: "Прокурор серый", price: 4500, category: "classic", size: "Толщина 4 см", image: img6 },
+  { id: 25, name: "Прокурор жёлтый", price: 5000, category: "classic", size: "Толщина 4 см", image: img21 },
+  { id: 11, name: "Астана", price: 5000, category: "classic", size: "Толщина 4 см", image: img7 },
+  { id: 12, name: "Старый город", price: 7500, category: "classic", size: "Толщина 4 см", image: img8 },
+  { id: 15, name: "Мрамор Каменный цветок", price: 6500, category: "classic", size: "Толщина 4 см", image: img11 },
+  { id: 18, name: "Хайтек", price: 3500, category: "classic", size: "Толщина 3 см", image: img14 },
+  { id: 19, name: "Миллион", price: 4500, category: "classic", size: "Толщина 4 см", image: img15 },
+  { id: 20, name: "Ромашка", price: 5500, category: "classic", size: "Толщина 4,5 см", image: img16 },
+  { id: 21, name: "Вавилон", price: 4500, category: "classic", size: "Толщина 4 см", image: img17 },
+  { id: 16, name: "Мрамор Вавилон", price: 6500, category: "classic", size: "Толщина 4 см", image: img20 },
+  { id: 26, name: "Поребрик серый", price: 1500, category: "classic", size: "", image: img22 },
+  { id: 27, name: "Поребрик цветной", price: 3000, category: "classic", size: "", image: img23 },
+  { id: 28, name: "Поребрик серый", price: 1500, category: "classic", size: "", image: img24 },
+
+  // остальные элементы пока без изменений
+  { id: 23, name: "Плитка 30х30", price: 3500, category: "classic",  size: "Толщина 3 см", image: img9 },
+  { id: 14, name: "Вавилон желтый", price: 5000, category: "antique", size: "Толщина 4 см", image: img10 },
+  { id: 24, name: "Хайтек", price: 3500, category: "concrete", size: "Толщина 3 см", image: img12 },
+  { id: 17, name: "Атырау", price: 6500, category: "geometric", size: "Толщина 5 см", image: img13 },
+  { id: 22, name: "Астана жёлтый", price: 5000, category: "classic", size: "Толщина 4 см", image: img18 },
+  { id: 13, name: "Брусчатка 40x40", price: 6500, category: "wave", size: "Толщина 5 см", image: img19 },
+];
+
 
   const categories = [
     { value: "all", label: "Все виды" },
     { value: "classic", label: "Классическая" },
     { value: "geometric", label: "Геометрическая" },
+    { value: "clinker", label: "Клинкерная" },
+    { value: "granite", label: "Гранитная" },
+    { value: "textured", label: "Фактурная" },
     { value: "wave", label: "Волнистая" },
     { value: "concrete", label: "Бетонная" },
-    { value: "antique", label: "Антик" }
+    { value: "antique", label: "Антик" },
+    { value: "parquet", label: "Паркет" },
+    { value: "hexagonal", label: "Гексагональная" }
   ];
 
   const sortOptions = [
@@ -86,85 +117,119 @@ const PavingCatalog = () => {
     { value: "price-desc", label: "Цена: по убыванию" }
   ];
 
-  const filteredItems =
-    filterBy === "all"
-      ? pavingItems
-      : pavingItems.filter(item => item.category === filterBy);
+  // Фильтр и сортировка
+  const filteredItems = filterBy === "all" 
+    ? pavingItems 
+    : pavingItems.filter(item => item.category === filterBy);
 
   const sortedItems = [...filteredItems].sort((a, b) => {
     switch (sortBy) {
-      case "id":
-        return a.id - b.id;
       case "price-asc":
         return a.price - b.price;
       case "price-desc":
         return b.price - a.price;
-      case "name":
-        return a.name.localeCompare(b.name);
+      case "id":
+        return a.id - b.id;
       default:
-        return 0;
+        return a.name.localeCompare(b.name);
     }
   });
 
   return (
-    <section className="py-20 bg-background">
+    <section id="catalog" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-7xl mx-auto">
-
+          {/* Заголовок */}
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Каталог брусчатки</h2>
-            <p className="text-muted-foreground">
-              Более 20 видов качественной брусчатки
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              Каталог брусчатки
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Более 20 видов качественной брусчатки для любых задач и бюджета
             </p>
           </div>
 
-          <div className="flex gap-4 mb-8">
-            <Select value={filterBy} onValueChange={setFilterBy}>
-              <SelectTrigger>
-                <Grid3X3 className="w-4 h-4 mr-2" />
-                <SelectValue placeholder="Категория" />
-              </SelectTrigger>
-              <SelectContent>
-                {categories.map(c => (
-                  <SelectItem key={c.value} value={c.value}>
-                    {c.label}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
+          {/* Фильтры */}
+          <div className="flex flex-col sm:flex-row gap-4 mb-8">
+            <div className="flex-1">
+              <Select value={filterBy} onValueChange={setFilterBy}>
+                <SelectTrigger className="w-full">
+                  <Grid3X3 className="w-4 h-4 mr-2" />
+                  <SelectValue placeholder="Категория" />
+                </SelectTrigger>
+                <SelectContent>
+                  {categories.map(category => (
+                    <SelectItem key={category.value} value={category.value}>
+                      {category.label}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
 
-            <Select value={sortBy} onValueChange={setSortBy}>
-              <SelectTrigger>
-                <ArrowUpDown className="w-4 h-4 mr-2" />
-                <SelectValue placeholder="Сортировка" />
-              </SelectTrigger>
-              <SelectContent>
-                {sortOptions.map(o => (
-                  <SelectItem key={o.value} value={o.value}>
-                    {o.label}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
+            <div className="flex-1">
+              <Select value={sortBy} onValueChange={setSortBy}>
+                <SelectTrigger className="w-full">
+                  <ArrowUpDown className="w-4 h-4 mr-2" />
+                  <SelectValue placeholder="Сортировка" />
+                </SelectTrigger>
+                <SelectContent>
+                  {sortOptions.map(option => (
+                    <SelectItem key={option.value} value={option.value}>
+                      {option.label}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+            </div>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {/* Сетка каталога */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
             {sortedItems.map(item => (
-              <Card key={item.id}>
-                <img src={item.image} alt={item.name} />
-                <CardContent>
-                  <h3>{item.name}</h3>
-                  <p>{item.size}</p>
-                  <p>{item.price} ₸</p>
-                  <Button>
-                    <ShoppingCart className="w-4 h-4 mr-1" />
-                    Заказать
-                  </Button>
+              <Card key={item.id} className="overflow-hidden shadow-card hover:shadow-hero transition-all duration-300 group">
+                <div className="aspect-square bg-gradient-card overflow-hidden">
+                  <img
+                    src={item.image}
+                    alt={item.name}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <CardContent className="p-6">
+                  <h3 className="font-semibold text-foreground mb-2 group-hover:text-forest-green transition-colors">
+                    {item.name}
+                  </h3>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    {item.size}
+                  </p>
+                  <div className="flex items-center justify-between mb-4">
+                    <span className="text-2xl font-bold text-forest-green">
+                      {item.price.toLocaleString()} ₸
+                    </span>
+                    <span className="text-sm text-muted-foreground">за м²</span>
+                  </div>
+                  <div className="flex gap-2">
+                    <Button 
+                      variant="cta" 
+                      size="sm" 
+                      className="flex-1"
+                      onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
+                    >
+                      <ShoppingCart className="w-4 h-4 mr-1" />
+                      Заказать
+                    </Button>
+                    <Button 
+                      variant="outline" 
+                      size="sm"
+                      onClick={() => window.open('tel:+77022410207')}
+                    >
+                      Узнать цену
+                    </Button>
+                  </div>
                 </CardContent>
               </Card>
             ))}
           </div>
-
         </div>
       </div>
     </section>
