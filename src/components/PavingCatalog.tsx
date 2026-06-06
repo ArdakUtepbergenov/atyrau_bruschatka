@@ -234,7 +234,7 @@ const PavingCatalog = () => {
             ))}
           </div>
 
-          {/* До и после */}
+          {/* До и после — временно скрыто (раскомментировать чтобы вернуть)
           <div className="mb-12">
             <div className="text-center mb-8">
               <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-3">До и после</h3>
@@ -252,6 +252,7 @@ const PavingCatalog = () => {
               ))}
             </div>
           </div>
+          */}
 
           {/* Сетка каталога — остальные товары */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
