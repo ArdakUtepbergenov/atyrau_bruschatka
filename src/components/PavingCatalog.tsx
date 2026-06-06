@@ -82,7 +82,7 @@ const PavingCatalog = () => {
   { id: 20, name: "Ромашка", price: 5500, category: "classic", size: "Толщина 4,5 см", image: img16 },
   { id: 21, name: "Вавилон", price: 4500, category: "classic", size: "Толщина 4 см", image: img17 },
   { id: 16, name: "Мрамор Вавилон", price: 6500, category: "classic", size: "Толщина 4 см", image: img20 },
-  { id: 26, name: "Поребрик серый - 50 см", price: 900, category: "classic", size: "", image: img22 },
+  { id: 26, name: "Поребрик серый", price: 900, category: "classic", size: "", unit: "50 см", image: img22 },
   { id: 27, name: "Поребрик цветной", price: 3000, category: "classic", size: "", image: img23 },
   { id: 28, name: "Поребрик серый", price: 1800, category: "classic", size: "", image: img24 },
 
@@ -206,7 +206,7 @@ const PavingCatalog = () => {
                     <span className="text-2xl font-bold text-forest-green">
                       {item.price.toLocaleString()} ₸
                     </span>
-                    <span className="text-sm text-muted-foreground">за м²</span>
+                    <span className="text-sm text-muted-foreground">{(item as any).unit ?? "за м²"}</span>
                   </div>
                   <div className="flex gap-2">
                     <Button 

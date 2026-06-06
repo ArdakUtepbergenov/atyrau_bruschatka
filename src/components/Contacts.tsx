@@ -66,7 +66,7 @@ const Contacts = () => {
                       <Button 
                         variant="outline" 
                         size="sm"
-                        onClick={() => window.open('https://wa.me/77081234567')}
+                        onClick={() => window.open('https://wa.me/77022410207')}
                       >
                         Написать
                       </Button>

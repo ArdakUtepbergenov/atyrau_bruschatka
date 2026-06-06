@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -13,9 +14,7 @@ const Footer = () => {
             {/* Company Info */}
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-gradient-hero rounded-lg flex items-center justify-center">
-                  <div className="w-4 h-4 bg-primary-foreground rounded-sm"></div>
-                </div>
+                <img src={logo} alt="Атырау Брусчатка логотип" className="h-8 w-auto rounded-lg object-contain" />
                 <span className="font-bold text-xl">Атырау Брусчатка</span>
               </div>
               <p className="text-primary-foreground/80 leading-relaxed">
@@ -25,7 +24,7 @@ const Footer = () => {
                 <Button 
                   variant="outline" 
                   size="sm"
-                  onClick={() => window.open('https://wa.me/77081234567')}
+                  onClick={() => window.open('https://wa.me/77022410207')}
                   className="bg-transparent border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10"
                 >
                   <MessageCircle className="w-4 h-4" />
