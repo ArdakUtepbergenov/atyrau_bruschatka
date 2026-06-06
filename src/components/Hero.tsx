@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle } from "lucide-react";
-import heroImage from "@/assets/hero-paving-showcase.jpg";
+import heroImage from "@/assets/hero-paving-showcase1.jpg";
 
 const Hero = () => {
   const scrollToForm = () => {
