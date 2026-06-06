@@ -189,7 +189,7 @@ const PavingCatalog = () => {
 
           {/* Сетка каталога — первые 4 товара */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-            {sortedItems.slice(0, 4).map(item => (
+            {sortedItems.slice(0, 6).map(item => (
               <Card key={item.id} className="overflow-hidden shadow-card hover:shadow-hero transition-all duration-300 group">
                 <div className="aspect-square bg-gradient-card overflow-hidden">
                   <img
@@ -256,7 +256,7 @@ const PavingCatalog = () => {
 
           {/* Сетка каталога — остальные товары */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-            {sortedItems.slice(4).map(item => (
+            {sortedItems.slice(6).map(item => (
               <Card key={item.id} className="overflow-hidden shadow-card hover:shadow-hero transition-all duration-300 group">
                 <div className="aspect-square bg-gradient-card overflow-hidden">
                   <img
