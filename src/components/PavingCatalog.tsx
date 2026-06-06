@@ -53,6 +53,9 @@ import img25 from "@/assets/astana_mramor.jpeg";
 import img26 from "@/assets/atyrau_mramor.jpeg";
 import img27 from "@/assets/parket_mramor.jpeg";
 import img28 from "@/assets/kamennyi_cvetok.jpeg";
+import doPosle1 from "@/assets/do_posle1.jpeg";
+import doPosle2 from "@/assets/do_posle2.jpeg";
+import doPosle3 from "@/assets/do_posle3.jpeg";
 
 
 
@@ -184,9 +187,9 @@ const PavingCatalog = () => {
             </div>
           </div>
 
-          {/* Сетка каталога */}
+          {/* Сетка каталога — первые 4 товара */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-            {sortedItems.map(item => (
+            {sortedItems.slice(0, 4).map(item => (
               <Card key={item.id} className="overflow-hidden shadow-card hover:shadow-hero transition-all duration-300 group">
                 <div className="aspect-square bg-gradient-card overflow-hidden">
                   <img
@@ -209,17 +212,83 @@ const PavingCatalog = () => {
                     <span className="text-sm text-muted-foreground">{(item as any).unit ?? "за м²"}</span>
                   </div>
                   <div className="flex gap-2">
-                    <Button 
-                      variant="cta" 
-                      size="sm" 
+                    <Button
+                      variant="cta"
+                      size="sm"
                       className="flex-1"
                       onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
                     >
                       <ShoppingCart className="w-4 h-4 mr-1" />
                       Заказать
                     </Button>
-                    <Button 
-                      variant="outline" 
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={() => window.open('tel:+77022410207')}
+                    >
+                      Узнать цену
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+
+          {/* До и после */}
+          <div className="mb-12">
+            <div className="text-center mb-8">
+              <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-3">До и после</h3>
+              <p className="text-muted-foreground">Реальные результаты наших работ</p>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6">
+              {[doPosle1, doPosle2, doPosle3].map((img, index) => (
+                <div key={index} className="rounded-xl overflow-hidden shadow-card group">
+                  <img
+                    src={img}
+                    alt={`До и после ${index + 1}`}
+                    className="w-full h-auto group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Сетка каталога — остальные товары */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            {sortedItems.slice(4).map(item => (
+              <Card key={item.id} className="overflow-hidden shadow-card hover:shadow-hero transition-all duration-300 group">
+                <div className="aspect-square bg-gradient-card overflow-hidden">
+                  <img
+                    src={item.image}
+                    alt={item.name}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <CardContent className="p-6">
+                  <h3 className="font-semibold text-foreground mb-2 group-hover:text-forest-green transition-colors">
+                    {item.name}
+                  </h3>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    {item.size}
+                  </p>
+                  <div className="flex items-center justify-between mb-4">
+                    <span className="text-2xl font-bold text-forest-green">
+                      {item.price.toLocaleString()} ₸
+                    </span>
+                    <span className="text-sm text-muted-foreground">{(item as any).unit ?? "за м²"}</span>
+                  </div>
+                  <div className="flex gap-2">
+                    <Button
+                      variant="cta"
+                      size="sm"
+                      className="flex-1"
+                      onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
+                    >
+                      <ShoppingCart className="w-4 h-4 mr-1" />
+                      Заказать
+                    </Button>
+                    <Button
+                      variant="outline"
                       size="sm"
                       onClick={() => window.open('tel:+77022410207')}
                     >

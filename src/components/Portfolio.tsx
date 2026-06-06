@@ -198,7 +198,7 @@ const Portfolio = () => {
             {[
               { number: "1000+", label: "Завершенных проектов" },
               { number: "200 000+", label: "Квадратных метров" },
-              { number: "7", label: "Лет опыта" },
+              { number: "11", label: "Лет опыта" },
               { number: "100%", label: "Довольных клиентов" }
             ].map((stat, index) => (
               <div key={index} className="text-center p-4 bg-card rounded-lg shadow-card">
