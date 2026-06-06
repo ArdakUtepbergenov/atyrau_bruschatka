@@ -17,7 +17,7 @@ const BeforeAfter = () => {
                 <img
                   src={img}
                   alt={`До и после ${index + 1}`}
-                  className="w-full aspect-[4/3] object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-auto group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
             ))}
