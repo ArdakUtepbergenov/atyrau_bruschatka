@@ -57,6 +57,21 @@ import doPosle1 from "@/assets/do_posle1.jpeg";
 import doPosle2 from "@/assets/do_posle2.jpeg";
 import doPosle3 from "@/assets/do_posle3.jpeg";
 
+import yalta from "@/assets/yalta.jpg";
+import labirint from "@/assets/labirint.jpg";
+import sayana from "@/assets/sayana.jpg";
+import tashkent from "@/assets/tashkent.jpg";
+import millioncvet from "@/assets/millioncvet.jpg";
+import dop from "@/assets/dop.jpg";
+import retro from "@/assets/retro.jpg";
+import barkhatcvet from "@/assets/barkhatcvet.jpg";
+import hitechnov from "@/assets/hitechnov.jpg";
+import hitechmramor from "@/assets/hitechmramor.jpg";
+
+
+
+
+
 
 
 
@@ -87,6 +102,17 @@ const PavingCatalog = () => {
   { id: 25, name: "Поребрик серый", price: 900, category: "classic", size: "", unit: "50 см", image: img22 },
   { id: 26, name: "Поребрик цветной", price: 3000, category: "classic", size: "", image: img23 },
   { id: 27, name: "Поребрик серый", price: 1800, category: "classic", size: "", image: img24 },
+  { id: 28, name: "Ялта", price: 7800, category: "classic", size: "Толщина 4 см", image: yalta },
+  { id: 29, name: "Лабиринт", price: 8800, category: "classic", size: "Толщина 5 см", image: labirint },
+  { id: 30, name: "Саяна", price: 7800, category: "classic", size: "Толщина 4 см", image: sayana },
+  { id: 31, name: "Ташкент", price: 8800, category: "classic", size: "Толщина 5 см", image: tashkent },
+  { id: 32, name: "Миллион цветной", price: 5000, category: "classic", size: "Толщина 4 см", image: millioncvet },
+  { id: 33, name: "Доп", price: 5500, category: "classic", size: "Толщина 4 см", image: dop },
+  { id: 34, name: "Ретро", price: 5500, category: "classic", size: "Толщина 4,5 см", image: retro },
+  { id: 35, name: "Бархат цветной", price: 5500, category: "classic", size: "Толщина 4,5 см", image: barkhatcvet },
+  { id: 36, name: "Хайтек новый", price: 5000, category: "classic", size: "Толщина 4 см", image: hitechnov },
+  { id: 37, name: "Хайтек мрамор", price: 6500, category: "classic", size: "Толщина 4 см", image: hitechmramor },
+    
 
   // остальные элементы пока без изменений
   { id: 22, name: "Плитка 30х30", price: 3500, category: "classic",  size: "Толщина 3 см", image: img9 },
