@@ -81,7 +81,7 @@ const PavingCatalog = () => {
 
   // Каталог брусчатки - 19 моделей
   const pavingItems = [
-  { id: 1, name: "Астана  Мрамор", price: 7500, category: "classic", size: "Толщина 4 см", image: img25 },
+  { id: 1, name: "Астана  Мрамор", price: 7800, category: "classic", size: "Толщина 4 см", image: img25 },
   { id: 2, name: "Атырау мрамор", price: 8800, category: "classic", size: "Толщина 5 см", image: img26 },
   { id: 3, name: "Паркет  мрамор", price: 7500, category: "classic", size: "Толщина 4 см", image: img27 },
   { id: 4, name: "Каменный цветок", price: 7800, category: "classic", size: "Толщина 4 см", image: img28 },
