@@ -87,7 +87,7 @@ const PavingCatalog = () => {
   const [sortBy, setSortBy] = useState("id");
   const [filterBy, setFilterBy] = useState("all");
 
-  // Каталог брусчатки - 19 моделей
+  // Каталог брусчатки - 19 моделейj
   const pavingItems = [
   { id: 1, name: "Астана  Мрамор", price: 7800, category: "classic", size: "Толщина 4 см", image: img25 },
   { id: 2, name: "Атырау мрамор", price: 8800, category: "classic", size: "Толщина 5 см", image: img26 },
