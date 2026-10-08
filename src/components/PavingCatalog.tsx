@@ -68,6 +68,14 @@ import barkhatcvet from "@/assets/barkhatcvet.jpg";
 import hitechnov from "@/assets/hitechnov.jpg";
 import hitechmramor from "@/assets/hitechmramor.jpg";
 
+import bavariya from "@/assets/bavariya.jpg";
+import gonchar from "@/assets/gonchar.jpg";
+import listopad from "@/assets/listopad.jpg";
+import mokko from "@/assets/mokko.jpg";
+import monako from "@/assets/monako.jpg";
+import sakura from "@/assets/sakura.jpg";
+import titan from "@/assets/titan.jpg";
+
 
 
 
@@ -112,6 +120,13 @@ const PavingCatalog = () => {
   { id: 35, name: "Бархат цветной", price: 5500, category: "classic", size: "Толщина 4,5 см", image: barkhatcvet },
   { id: 36, name: "Хайтек новый", price: 5000, category: "classic", size: "Толщина 4 см", image: hitechnov },
   { id: 37, name: "Хайтек мрамор", price: 6500, category: "classic", size: "Толщина 4 см", image: hitechmramor },
+  { id: 38, name: "Бавария", price: 10 300, category: "classic", size: "Толщина 6 см", image: bavariya },
+  { id: 39, name: "Гончар", price: 10 300, category: "classic", size: "Толщина 6 см", image: gonchar },
+  { id: 40, name: "Листопад", price: 10 300, category: "classic", size: "Толщина 6 см", image: listopad },
+  { id: 41, name: "Мокко", price: 10 300, category: "classic", size: "Толщина 6 см", image: mokko },
+  { id: 42, name: "Монако", price: 10 300, category: "classic", size: "Толщина 6 см", image: monako },
+  { id: 43, name: "Сакура", price: 10 300, category: "classic", size: "Толщина 6 см", image: sakura },
+  { id: 44, name: "Титан", price: 10 300, category: "classic", size: "Толщина 6 см", image: titan },
     
 
   // остальные элементы пока без изменений
